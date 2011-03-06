@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github-readonly"
+           fetch="git://github.com/neelance/" />
+  <remote  name="github"
+           fetch="git@github.com:neelance/" />
+
+  <default revision="master"
+           remote="github" />
+
+  <project path="java2ruby" name="java2ruby" />
+  <project path="jre4ruby" name="jre4ruby" />
+  <project path="antlr4ruby" name="antlr4ruby" />
+  <project path="swt4ruby" name="swt4ruby" />
+  <project path="jface4ruby" name="jface4ruby" />
+
+</manifest>
